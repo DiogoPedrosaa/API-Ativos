@@ -1,0 +1,1 @@
+from .ativos_serializer import FabricanteSerializer, TagSerializer, AtivoSerializer, SetorSerializer
