@@ -8,7 +8,7 @@ from django.test import TestCase
 
 class FabricanteViewTest(APITestCase):
     def setUp(self):
-        self.list_url = reverse('fabricante-list-create')  # Substitua 'fabricante-list' pelo nome registrado na URL
+        self.list_url = reverse('fabricante-list-create')
         self.data = {'nome': 'Fabricante Teste'}
 
     def test_list_fabricantes(self):
